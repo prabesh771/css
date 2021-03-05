@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 
+
+}
+header{
+	width: 100%;
+	background-color:#73F984; 
+	color:white;
+	padding: 20px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: capitalize;
+
+
+}
+nav{
+	width: 100%;
+	background-color:#739AF9; 
+	color:white;
+	padding: 15px;
+	text-align: center;
+	font-size:20px; 
+	font-weight:bold;
+	text-transform: capitalize;
+	margin-top: 2px;
+}
+.main{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2px;
+
+}
+
+/*.main.left-main or .left-main*/
+.main .left-main{
+	height: 900px;
+	width: 60%;
+	/*background-color: red;*/
+}
+.main .right-main{
+	height: 900px;
+	width: 40%;
+	padding-left: 10px;
+	/*background-color: blue;*/
+}
+.left-main .first-left{
+	height: 440px;
+	background-color: #FCC9BC;
+}
+.left-main .second-left{
+	height: 440px;
+	background-color: #FCC9BC;
+	margin-top: 20px;
+}
+.right-main .first-right{
+	height: 290px;
+	background-color: #A9BEFB;
+	
+
+}
+.right-main .second-right{
+	height: 290px;
+	background-color: #A9BEFB;
+	margin-top: 15px;
+
+}
+.right-main .third-right{
+	height: 290px;
+	background-color: #A9BEFB;
+	margin-top: 15px;
+}
+footer{
+	margin-top: 2px;
+	padding: 20px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	text-transform: capitalize;
+}
